@@ -1,0 +1,22 @@
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Fire Sans", Arial, sans-serif;
+    color: #141414;
+}
+
+h1, h2, h3, p {
+    margin: 0rem;
+}
+
+ul {
+    margin: 0rem;
+    padding: 0rem;
+    list-style: none;
+}
+
+img {
+    max-width: 100%;
+    display: block;
+}
