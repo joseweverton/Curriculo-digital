@@ -20,3 +20,25 @@ img {
     max-width: 100%;
     display: block;
 }
+.caption-experience {
+    font-size: 8rem;
+    text-transform: uppercase;
+    line-height: 1;
+    word-break: break-all;/*qubrar a palavra*/
+    max-width: 5ch;
+}
+
+@media (max-width: 840px) {
+    .caption-experience {
+        font-size: 3rem;
+        text-transform: capitalize;
+        max-width: initial;
+    }
+}
+
+@media (max-width: 460px) {
+    .caption-experience {
+        font-size: 2rem;
+    }
+}
+

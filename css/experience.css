@@ -1,0 +1,78 @@
+.section-experience {
+    max-width: 75rem;
+    padding: 2.5rem 1.25rem;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: 1fr 2fr; 
+    gap: 6.25rem;
+}
+
+.section-experience .caption-experience {
+    color: #E0E0E0;
+}
+
+.p-experience {
+    font-size: 1.5rem;
+    line-height: 1.33;
+    max-width: 50ch; /*limita a largula da caixa de texto em +/- 50 caracter*/
+    margin-bottom: 3.75rem;
+    color: #525252;
+}
+
+.p-experience strong {
+    color: #141414;
+}
+
+.company {
+    padding: 1.25rem;
+    background-color: #f5f5f5;
+    margin-bottom: 1.25rem;
+    border-radius: 5px;
+    position: relative;
+}
+
+.company::before {
+    content: "";
+    display: block;
+    width: 20px;
+    height: 4px;
+    background: #ffbb22;
+    position: absolute;
+    top: 0;
+}
+
+.company-years {
+    position: absolute;
+    top: 1.5rem;
+    left: -8rem;
+    width: 6rem;
+    text-align: right;
+    color: #525252;
+}
+
+.company-text {
+    margin-top: 1rem;
+    font-size: 0.875rem;
+    line-height: 1.4;
+    color: #525252;
+}
+
+@media (max-width: 840px) {
+    .section-experience {
+        grid-template-columns: 1fr;
+        gap: 2.5rem;
+        word-break: none;/*qubrar a palavra*/
+    }
+    .p-experience {
+        font-size: 1rem;
+        max-width: none;
+    }
+  
+    .company-years {
+        position: initial;
+        font-size: 0.875rem;
+    }
+}
+
+  
+
