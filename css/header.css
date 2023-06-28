@@ -29,19 +29,32 @@
     opacity: 0.8;
 }
 
-@media (max-width: 800px){
+@media (max-width: 840px){
     .header {
         flex-direction: column;/*distribui os elementos <img> e <nav> um a baixo do outro*/
-        gap: 2.5rem;
+        gap: 1.5rem;
         
     }
     .header-menu a {
         background-color: #ffbb00;
         color: #332200;
         border-radius: 4px;
+        font-size: 1rem;
     }
 
     .header-menu a:hover {
         color: #332200;
+    }
+}
+
+@media (max-width: 640px) {
+    .header-menu a {
+        font-size: 1rem;
+    }
+}
+
+@media (max-width: 460px) {
+    .header-menu a {
+        font-size: 0.875rem;
     }
 }

@@ -1,0 +1,79 @@
+.container {
+  max-width: 75rem;
+  padding: 2.5rem 1.25rem;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  gap: 6.25rem;
+  align-items: center;
+}
+
+.introduction h1 {
+  font-size: 4rem;
+  line-height: 1.125;
+  position: relative;
+}
+
+.introduction h1::before {
+  content: "";
+  display: block;
+  width: 130px;
+  height: 100px;
+  background: url("../img/dec.svg") no-repeat center;
+  position: absolute;
+  top: -35px;
+  left: -60px;
+  z-index: -1;
+}
+
+@media (max-width: 840px) {
+    .container {
+        gap: 50px;
+    }
+  .introduction h1 {
+    font-size: 3rem;
+  }
+  .introduction h1::before {
+    width: 40px;
+    height: 10px;
+    top: -20px;
+    left: 0px;
+
+    
+  }
+}
+
+@media (max-width: 660px) {
+  .container {
+    
+    gap: 20px;
+  }
+  
+  .introduction h1 {
+    font-size: 2.3rem;
+  }
+
+}
+
+@media (max-width: 460px) {
+    .container {
+        grid-template-columns: 1fr;
+    }   
+    .container img {
+    display: none;
+
+    }
+    .introduction h1 {
+        font-size: 1.5rem;
+        display: flex;
+        justify-content: center;
+    }
+
+    .introduction h1::before {
+        display: none;
+    
+        
+      }
+}
+
+
