@@ -1,12 +1,17 @@
 .header {
+    background-color: #2e2e2e;
+    border-bottom: 2px solid #ffbb00;
+}
+
+.navegation-container {
     padding: 1.25rem;
     max-width: 75rem; /*1200px*/
     margin: 0 auto;/*centralizando: cima/baixo 0 lados automático*/
     display: flex;
     justify-content: space-between;
     align-items: center;
-    border-bottom: 2px solid #ffbb00;
-    background-color: #2e2e2e;
+    
+    
 }
 
 .header-menu {
@@ -30,7 +35,7 @@
 }
 
 @media (max-width: 840px){
-    .header {
+    .navegation-container {
         flex-direction: column;/*distribui os elementos <img> e <nav> um a baixo do outro*/
         gap: 1.5rem;
         

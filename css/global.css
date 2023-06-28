@@ -2,7 +2,7 @@ body {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: "Fire Sans", Arial, sans-serif;
+    font-family: 'Fira Sans', sans-serif;
     color: #141414;
 }
 
@@ -25,14 +25,14 @@ img {
     text-transform: uppercase;
     line-height: 1;
     word-break: break-all;/*qubrar a palavra*/
-    max-width: 5ch;
+    max-width: 4ch;
 }
 
 @media (max-width: 840px) {
     .caption-experience {
         font-size: 3rem;
         text-transform: capitalize;
-        max-width: initial;
+        max-width: initial !important;
     }
 }
 
