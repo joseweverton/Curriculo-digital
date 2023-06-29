@@ -9,17 +9,20 @@ Finalidade: Validar habilidades adquiridas e disponibilizar o link na rede como 
 <h1>Escopo da Aplicação</h1>
 <strong>Seção 01: Header:</strong>
    Menu de navegação responsivo em dois layout (Desktop e Mobile).
-
+   <br><br>
 <strong>Seção 02: Main - Container: </strong>
    Foto de perfil e Introdução com apresentação inicial.
-
+   <br><br>
 <strong>Seção 03: Section - Experiência: </strong>
   Período de atuação e posicionando dos elementos de forma absoluta ao elemento pai;
   Descrição das principais atividades desenvolvidas em cada experiência.
-
+   <br><br>
 <strong>Seção 04: Section: Formação Acadêmica:</strong>
    Descrição dos cursos feitos distribuidos em caixas para as formações de titulos e listas para cursos intensivos.
    Posicionamento de icones flutuantes na pagina.
+   <br><br>
+<strong>Seção 05: Footer e Favicon:</strong>
+   Rodapé do site com informações de contatos, rede sociais e link do favicon.
     
 
    
