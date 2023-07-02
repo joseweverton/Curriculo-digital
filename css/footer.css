@@ -18,9 +18,8 @@
     line-height: 1.33;
     max-width: 40ch;
     color: #fff;
-
-
 }
+
 .footer-text .autor {
     font-size: .75rem;
     color: #a3a3a3;
@@ -33,17 +32,46 @@ h3 {
 
 .email{
     font-size: 1rem;
-    font-weight: bold;
     line-height: 1.1;
     color: #fff;
     margin-bottom: 10px;
- 
 }
 
 .lista {
     display: flex;  
     gap: 0 2rem;
-    
 }
+
+@media (max-width: 840px) {
+    
+    .footer-container{
+        gap: 2rem;
+        padding: 2.5rem 1rem;
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+    
+    .footer-text, .email, .redes {
+        font-size: 0.875rem;
+    }
+
+    .footer-text {
+        order: 4;
+        grid-column: span 3;
+        justify-content: center;
+    }
+}
+
+@media (max-width: 460px) {
+    
+    .footer-text {
+        grid-column: span 1;
+    }
+    .footer-container {   
+        grid-template-columns: 1fr;
+    }
+}
+
+
+
 
 

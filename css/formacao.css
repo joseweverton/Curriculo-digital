@@ -134,6 +134,10 @@
         .course-name {
             font-size: 0.875rem;
         }
+
+        .extra_course li {
+            font-size: 0.875rem;
+        }
     }
 }
 
