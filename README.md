@@ -1,12 +1,17 @@
 # Currículo Digital - Portfolio
 
-Aplicação Web utilizando HTML, CSS e JavaScript. Objetivo: Desenvolver uma página de apresentação pessoal - Currículo Digital (Portfolio).
+Aplicação Web utilizando HTML, CSS e JavaScript. Objetivo: Desenvolver uma página de apresentação pessoal estilo Currículo.
 
 Cada seção foi desenvolvida em etapas separadas, implementei o CSS separamente para cada seção do projeto ja utilizando os conceitos de responsividade e acessibilidade com o intuito de abordar em cada etapa as decisões tomadas em cada fase do projeto.
 
-Finalidade: Validar habilidades adquiridas e disponibilizar o link na rede como portfolio pessoal.
+Finalidade: Validar habilidades adquiridas e disponibilizar o link na rede como portfolio pessoal.<br>
+<b>Etapa 01:</b> transformar em código layout inicial criado no Figma. - (Concluída)<br>
+<b>Etapa 02:</b> Colocar eventos com javaScript<br>
+<b>Etapa 03:</b> Criar nova seção "Projetos" e criar apresentação dos principais trabalhos desenvolvidos.<br>
 
-<h1>Escopo da Aplicação</h1>
+
+<h2>Escopo da Aplicação</h2>
+<h3>Etapa 01:</h3>
 <strong>Seção 01: Header:</strong>
    Menu de navegação responsivo em dois layout (Desktop e Mobile).
    <br><br>
