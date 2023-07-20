@@ -2,7 +2,9 @@
 
 Aplicação Web utilizando HTML, CSS e JavaScript. Objetivo: Desenvolver uma página de apresentação pessoal estilo Currículo.
 
-Cada seção foi desenvolvida em etapas separadas, implementei o CSS separamente para cada seção do projeto ja utilizando os conceitos de responsividade e acessibilidade com o intuito de abordar em cada etapa as decisões tomadas em cada fase do projeto.
+<p>Cada seção foi desenvolvida em etapas separadas, implementei o CSS separamente para cada seção do projeto ja utilizando os conceitos de responsividade e acessibilidade com o intuito de abordar em cada etapa as decisões tomadas em cada fase do projeto.</p>
+
+<p>A aplicação não é um portifólio, se basea no modelo de currículo.</p>
 
 <p>Acompanhe a evolução: https://joseweverton.github.io/Curriculo-digital/</p> 
 Finalidade: praticar habilidades adquiridas.<br>
