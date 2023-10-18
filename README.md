@@ -1,42 +1,26 @@
-# Currículo Digital
+# 📋 Currículo Digital
 
-Aplicação Web utilizando HTML, CSS e JavaScript. Objetivo: Desenvolver uma página de apresentação pessoal estilo Currículo.
+<h2>ℹ️ Sobre o Projeto</h2>
 
-<p>Cada seção foi desenvolvida em etapas separadas, implementei o CSS separamente para cada seção do projeto ja utilizando os conceitos de responsividade e acessibilidade com o intuito de abordar em cada etapa as decisões tomadas em cada fase do projeto.</p>
+<ul>
+   <li>Esta página segue o formato personalizado de apresentação pessoal, com base em minhas experiências, sob o estilo de um <b>currículo</b>.</li>
+   <li>🔗 Acesse o Projeto Finalizado: https://joseweverton.github.io/Curriculo-digital</li>
+</ul>
 
-<p>A aplicação não é um portifólio, se basea no modelo de currículo.</p>
+<h2>🛠️ Tecnologias Utilizadas</h2>
 
-<p>Acompanhe a evolução: https://joseweverton.github.io/Curriculo-digital/</p> 
-Finalidade: praticar habilidades adquiridas.<br>
-<b>Etapa 01:</b> transformar em código layout inicial criado no Figma. - (Concluída)<br>
-<b>Etapa 02:</b> Colocar eventos com javaScript<br>
-<b>Etapa 03:</b> Criar nova seção "Projetos" e criar apresentação dos principais trabalhos desenvolvidos.<br>
+<ul>
+   <li>HTML5</li>
+   <li>CSS</li>
+   <li>JavaScript</li>
+</ul>
 
+<h2>🌟 Recursos</h2>
 
-<h2>Escopo da Aplicação</h2>
-<h3>Etapa 01:</h3>
-<strong>Seção 01: Header:</strong>
-   Menu de navegação responsivo em dois layout (Desktop e Mobile).
-   <br><br>
-<strong>Seção 02: Main - Container: </strong>
-   Foto de perfil e Introdução com apresentação inicial.
-   <br><br>
-<strong>Seção 03: Section - Experiência: </strong>
-  Período de atuação e posicionando dos elementos de forma absoluta ao elemento pai;
-  Descrição das principais atividades desenvolvidas em cada experiência.
-   <br><br>
-<strong>Seção 04: Section: Formação Acadêmica:</strong>
-   Descrição dos cursos feitos distribuidos em caixas para as formações de titulos e listas para cursos intensivos.
-   Posicionamento de icones flutuantes na pagina.
-   <br><br>
-<strong>Seção 05: Footer e Favicon:</strong>
-   Rodapé do site com informações de contatos, rede sociais e link do favicon.
-    
+<ul>
+   <li>Cada seção foi desenvolvida em etapas separadas, implementando o CSS para cada seção da página, já utilizando os conceitos de responsividade e acessibilidade.</li>
+</ul>
 
-   
-
-
- 
-
-
+![image](https://github.com/joseweverton/Curriculo-digital/assets/125286733/b27e3ea5-df0a-448b-b374-c4266dc530ba)
+![image](https://github.com/joseweverton/Curriculo-digital/assets/125286733/a891c8f3-6725-49e2-b63f-a7b5e32b1d95)
 
